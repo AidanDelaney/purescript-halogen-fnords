@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+      "build": "pulp build --to dist/app.js",
+      "psci": "pulp psci",
+      "watch": "pulp -w build --to dist/app.js"
+  },
+  "devDependencies": {
+    "pulp": "^10.0.1",
+    "purescript": "^0.10.7",
+    "purescript-psa": "^0.4.0"
+  }
+}
